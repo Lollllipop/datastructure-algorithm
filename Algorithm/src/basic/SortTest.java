@@ -3,11 +3,17 @@ package basic;
 public class SortTest {
 
 	public static void main(String[] args) {
+		int[] arr = generateIntArr(50);
 		
-		int[] arr = generateIntArr(200);
-		arrPrint(arr); // before
-		testPerformance(arr, new InsertionSort());
-		arrPrint(arr); // after
+		System.out.print("before : ");
+		arrPrint(arr);
+		
+		double excuteTime = testPerformance(arr, new SelectionSort());
+		
+		System.out.print("after : ");
+		arrPrint(arr);
+		
+		System.out.println("ì‹¤í–‰ ì‹œê°„ : " + excuteTime + "ì´ˆ");
 	}
 	
 	public static int[] generateIntArr(int count) {
@@ -27,14 +33,16 @@ public class SortTest {
 		System.out.println();
 	}
 	
-	public static void testPerformance(int[] arr, Sort sort) {
+	public static double testPerformance(int[] arr, Sort sort) {
 		long startTime = System.currentTimeMillis();
 		
 		sort.sort(arr);
 		
 		long endTime = System.currentTimeMillis();
 		
-		System.out.println("½ÇÇà ½Ã°£ : " + (endTime - startTime) / 1000.0 + "ÃÊ");
+		double excuteTime = (endTime - startTime) / 1000.0;
+		
+		return excuteTime;
 	}
 	
 }
