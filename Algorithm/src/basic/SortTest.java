@@ -3,12 +3,13 @@ package basic;
 public class SortTest {
 
 	public static void main(String[] args) {
-		int[] arr = generateIntArr(50);
+//		int[] arr = generateIntArr(10);
+		int[] arr = {9,5,2,3,7,7};
 		
 		System.out.print("before : ");
 		arrPrint(arr);
 		
-		double excuteTime = testPerformance(arr, new SelectionSort());
+		double excuteTime = testPerformance(arr, new QuickSort());
 		
 		System.out.print("after : ");
 		arrPrint(arr);
