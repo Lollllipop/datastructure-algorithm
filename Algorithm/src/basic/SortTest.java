@@ -4,7 +4,7 @@ public class SortTest {
 
 	public static void main(String[] args) {
 //		int[] arr = generateIntArr(10);
-		int[] arr = {9,5,2,3,7,7};
+		int[] arr = {9,5,2,3,7};
 		
 		System.out.print("before : ");
 		arrPrint(arr);
