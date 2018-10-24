@@ -5,8 +5,12 @@ import java.io.Serializable;
 public class test {
 
 	public static void main(String[] args) {
-		System.out.println(199/2);
-
+		StringBuilder a = new StringBuilder();
+		a.append("abcde");
+		a.insert(1, "xx");
+		a.setLength(0);
+		a.append("123");
+		System.out.print(a);
 	}
 
 }
