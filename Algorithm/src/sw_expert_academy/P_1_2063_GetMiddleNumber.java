@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class GetMiddleNumber {
+public class P_1_2063_GetMiddleNumber {
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

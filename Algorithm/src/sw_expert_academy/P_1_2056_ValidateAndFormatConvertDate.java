@@ -3,7 +3,7 @@ package sw_expert_academy;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class ValidateAndFormatConvertDate {
+public class P_1_2056_ValidateAndFormatConvertDate {
 
 	public static void main(String[] args) throws Exception {
 		// 변수 정의

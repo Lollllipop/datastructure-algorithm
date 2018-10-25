@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class CalcDigitSum {
+public class P_1_2058_CalcDigitSum {
 
 	public static void main(String[] args) throws IOException {
 		
