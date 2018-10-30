@@ -9,7 +9,7 @@ public class SortTest {
 		System.out.print("before : ");
 		arrPrint(arr);
 		
-		double excuteTime = testPerformance(arr, new QuickSort());
+		double excuteTime = testPerformance(arr, new MergeSort());
 		
 		System.out.print("after : ");
 		arrPrint(arr);
