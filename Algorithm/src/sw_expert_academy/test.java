@@ -7,10 +7,8 @@ import java.util.LinkedList;
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		LinkedList<Integer> a = new LinkedList<>();
-		a.add(1);
-		a.removeFirst();
-		System.out.println(a.isEmpty());
+		StringBuilder sb = new StringBuilder();
+		System.out.println(sb.length());
 	}
 
 }
