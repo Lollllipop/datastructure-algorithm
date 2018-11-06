@@ -7,8 +7,10 @@ import java.util.LinkedList;
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		StringBuilder sb = new StringBuilder();
-		System.out.println(sb.length());
+		String a = "abcabc";
+		System.out.println(a.substring(0, 5 / 2 + 1));
+		System.out.println(a.substring(5 / 2 + 1, 5 + 1));
+		System.out.println(a.substring(0, 5 / 2 + 1).equals(a.substring(5 / 2 + 1, 5 + 1)));
 	}
 
 }
