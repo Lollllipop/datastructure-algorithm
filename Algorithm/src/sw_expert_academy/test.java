@@ -7,9 +7,9 @@ import java.util.LinkedList;
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		int[][] a = new int[2][2];
-		a[1][1] = 1;
-		System.out.println(a);
+		for (int i = 0; i < 2.0; i++) {
+			System.out.println(1);
+		}
 	}
 
 }
