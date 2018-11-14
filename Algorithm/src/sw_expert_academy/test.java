@@ -5,11 +5,14 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.StringTokenizer;
 
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		
+		System.out.println(30 / 10);
+		System.out.println(3 / 2.0);
+		System.out.println(3 / 1.5);
 	}
 
 }
