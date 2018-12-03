@@ -10,7 +10,15 @@ import java.util.StringTokenizer;
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		System.out.println(122 / 60);
+		ArrayList<String> a = new ArrayList<>();
+		a.add("1");
+		a.add("3");
+		a.add("99");
+		a.add("2");
+		
+		Collections.sort(a);
+		
+		System.out.println(a);
 	}
 
 }
