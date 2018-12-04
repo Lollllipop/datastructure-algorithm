@@ -10,15 +10,11 @@ import java.util.StringTokenizer;
 public class test {
 
 	public static void main(String[] args) throws Exception {
-		ArrayList<String> a = new ArrayList<>();
-		a.add("1");
-		a.add("3");
-		a.add("99");
-		a.add("2");
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		
-		Collections.sort(a);
+		System.out.println(bufferedReader.read());
+		System.out.println(bufferedReader.read());
 		
-		System.out.println(a);
 	}
 
 }
